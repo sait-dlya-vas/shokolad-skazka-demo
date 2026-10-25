@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>НИ В сказке сказать, НИ ПЕРОМ описать – шоколад из современной сказки</title>
+<meta name="description" content="Премиальный шоколад в упаковке-сказке: четыре вкуса, история бренда, где купить на Wildberries, Ozon и Яндекс Маркете, условия для партнёров.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="НИ В сказке сказать, НИ ПЕРОМ описать">
+<meta property="og:title" content="Шоколад из современной сказки">
+<meta property="og:description" content="Четыре вкуса в упаковке-сказке. Где купить: Wildberries, Ozon, Яндекс Маркет.">
+<meta property="og:url" content="https://sait-dlya-vas.github.io/shokolad-skazka-demo">
+<meta property="og:image" content="https://sait-dlya-vas.github.io/shokolad-skazka-demo/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="assets/hero-m.webp" media="(max-width: 860px)" fetchpriority="high">
+<link rel="preload" as="image" href="assets/hero.webp" media="(min-width: 861px)" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23d9461a%27/%3E%3Cpath d=%27M7 24l3-12 6 6 6-6 3 12z%27 fill=%27%23fff4e3%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vibe.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"НИ В сказке сказать, НИ ПЕРОМ описать","description":"Премиальный шоколад в упаковке-сказке: четыре вкуса и где купить.","url":"https://sait-dlya-vas.github.io/shokolad-skazka-demo","inLanguage":"ru-RU"}
+</script>
+<!-- Аналитика: сюда вставляется счётчик {{Яндекс.Метрика}} (код выдаёт заказчик) -->
+<style>
+  /* ---- тема: шесть цветов, два шрифта («сказка», светлая) ---------------------- */
+  .v-page {
+    --v-canvas: #cdeef0; --v-surface: #fffaf2;
+    --v-ink: #2b1840; --v-ink-soft: #5b4a6e;           /* 7,6:1 и 5,6:1 на холсте */
+    --v-accent: #d9461a; --v-accent-ink: #fff7ef;      /* лиса: 4,6:1 текст на кнопке */
+    --v-font-display: "Ruslan Display", "Georgia", serif;
+    --v-font-text: "Golos Text", "Segoe UI", system-ui, sans-serif;
+    --v-shadow-color: 43 24 64;
+    --v-e1: 0 1px 2px rgb(var(--v-shadow-color) / .1), 0 10px 26px rgb(var(--v-shadow-color) / .14);
+    --v-e2: 0 3px 8px rgb(var(--v-shadow-color) / .12), 0 26px 58px rgb(var(--v-shadow-color) / .22);
+    --v-edge: inset 0 1px 0 rgb(255 255 255 / .75);
+    --v-radius: 26px;
+    --v-section: clamp(4rem, 9vw, 8rem);
+    --v-display-weight: 400;
+    --v-track-tight: 0;
+    --v-track-normal: 0;
+  }
+  html, body { background: #cdeef0; }
+  .v-page .v-display { font-weight: 400; line-height: 1.04; }
+  .v-page .v-lede { font-weight: 400; line-height: 1.45; }
+  .v-page .v-btn { font-size: var(--v-t-base); font-weight: 600; min-height: 48px; }
+  .v-page [id] { scroll-margin-top: 5rem; }
+
+  /* ---- шапка -------------------------------------------------------------- */
+  .bar { position: fixed; inset: 0 0 auto 0; z-index: 30; display: flex; align-items: center; justify-content: space-between;
+    padding: var(--v-3) var(--v-gutter); gap: var(--v-4);
+    background: linear-gradient(to bottom, rgb(205 238 240 / .85), rgb(205 238 240 / 0));
+    transition: background-color .3s var(--v-ease-out), box-shadow .3s var(--v-ease-out); }
+  .bar.is-scrolled { background: rgb(255 250 242 / .92); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); box-shadow: 0 1px 0 rgb(43 24 64 / .12); }
+  .bar__mark { font-family: var(--v-font-display); font-size: var(--v-t-lg); text-decoration: none; display: inline-flex; align-items: center; gap: .5em; min-height: 44px; white-space: nowrap; color: #2b1840; }
+  .bar__mark svg { width: 1.5em; height: 1.5em; flex: none; }
+  .bar__right { display: flex; align-items: center; gap: var(--v-3); }
+  .demo { font-size: var(--v-t-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: .35em .8em; border-radius: 999px; background: #2b1840; color: #fff4e3; }
+  @media (max-width: 700px) {
+    .bar .v-btn { padding: 0 1.1em; min-height: 44px; font-size: .95rem; }
+    .bar__mark { font-size: 1.05rem; }
+    .bar__mark span { max-width: 9.5ch; white-space: normal; line-height: 1.05; }
+  }
+
+  /* ---- 1 · главный экран: облака расходятся, сказка открывается ---------------- */
+  .hero__back img { position: absolute; max-width: none; width: 112%; height: 112%; left: -6%; top: -6%; object-fit: cover; object-position: 72% 50%; }
+  .hero__copy { left: var(--v-gutter); top: clamp(5.5rem, 14vh, 8rem); max-width: min(40rem, 88vw); }
+  .hero__copy h1 { font-size: clamp(2.2rem, 0.6rem + 3.5vw, 4.4rem); line-height: 1.04; color: #2b1840; max-width: 15ch; }
+  .hero__copy .v-lede { margin-top: var(--v-5); color: #2b1840; max-width: 28ch; }
+  .hero__copy .v-btn { margin-top: var(--v-6); }
+  .hero__fox, .hero__bar { position: absolute; max-width: none; height: auto; }
+  .hero__fox { right: 5vw; bottom: 0; width: clamp(120px, 14vw, 240px); }
+  .hero__bar { right: 25vw; bottom: -2vh; width: clamp(200px, 24vw, 420px); }
+  @media (max-height: 760px) and (min-width: 861px) { .hero__bar { width: clamp(190px, 21vw, 360px); } .hero__fox { width: clamp(100px, 12vw, 190px); } }
+  @media (max-width: 860px) {
+    .hero__back img { object-position: 50% 60%; }
+    .hero__copy { top: clamp(5rem, 11vh, 6.5rem); }
+    .hero__copy h1 { font-size: clamp(2.1rem, 9.5vw, 3rem); }
+    .hero__copy .v-lede { font-size: var(--v-t-base); margin-top: var(--v-3); }
+    .hero__copy .v-btn { margin-top: var(--v-4); }
+    .hero__fox { left: 5vw; width: 28vw; bottom: 1vh; }
+    .hero__bar { right: -3vw; width: 54vw; bottom: -1vh; }
+  }
+  .clouds { position: absolute; inset: 0; z-index: 8; pointer-events: none; overflow: hidden; }
+  .cl { position: absolute; top: -6%; height: 112%; width: 78vw; max-width: none; }
+  .cl--l { left: 0; animation: part-l 2.6s cubic-bezier(.55,.05,.25,1) .5s forwards; }
+  .cl--r { right: 0; transform: scaleX(-1); animation: part-r 2.6s cubic-bezier(.55,.05,.25,1) .5s forwards; }
+  @keyframes part-l { to { transform: translateX(-112%); } }
+  @keyframes part-r { from { transform: scaleX(-1); } to { transform: scaleX(-1) translateX(-112%); } }
+  .rise { opacity: 0; animation: rise 1s var(--v-ease-out) forwards; }
+  .hero__fox.rise { animation-delay: 1.5s; }
+  .hero__bar.rise { animation: rise 1s var(--v-ease-out) 1.9s forwards, bob 6s ease-in-out 3s infinite alternate; }
+  .hero__copy .rise { animation-delay: 1.2s; }
+  .hero__copy .rise + .rise { animation-delay: 1.45s; }
+  .hero__copy .rise + .rise + .rise { animation-delay: 1.7s; }
+  @keyframes rise { from { opacity: 0; transform: translateY(26px) scale(.96); } to { opacity: 1; transform: none; } }
+  @keyframes bob { from { transform: translateY(0) rotate(0); } to { transform: translateY(-1.4vh) rotate(-1.4deg); } }
+  @media (prefers-reduced-motion: reduce) {
+    .clouds { display: none; }
+    .rise { opacity: 1 !important; animation: none !important; }
+  }
+
+  /* ---- 2 · коллекция: лента из четырёх вкусов ------------------------------- */
+  .coll [data-v-stage] { display: flex; align-items: center; scroll-padding-inline: var(--v-gutter); }
+  .coll .rail { align-items: center; gap: clamp(1.5rem, 4vw, 4rem); padding: 5rem var(--v-gutter) 2rem; }
+  .coll__head { flex: none; width: min(22rem, 78vw); }
+  .coll__head h2 { font-size: var(--v-t-3xl); line-height: 1; }
+  .coll__head p { margin-top: var(--v-4); color: var(--v-ink-soft); max-width: 26ch; }
+  .flv { flex: none; width: clamp(15rem, 28vw, 24rem); }
+  .flv:nth-of-type(even) { transform: translateY(5vh); }
+  .flv figure { border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2); background: var(--c, #fff); aspect-ratio: 3 / 4; max-height: 56svh; }
+  .flv figure img { width: 100%; height: 100%; object-fit: cover; }
+  .flv h3 { margin-top: var(--v-4); font-family: var(--v-font-display); font-weight: 400; font-size: var(--v-t-xl); line-height: 1.05; }
+  .flv p { margin-top: var(--v-2); color: var(--v-ink-soft); max-width: 30ch; font-size: var(--v-t-sm); }
+  @media (pointer: coarse), (max-width: 860px) {
+    .coll .rail { padding: 5.5rem var(--v-gutter) 2.5rem; align-items: flex-start; }
+    .flv { width: 72vw; }
+    .flv:nth-of-type(even) { transform: none; }
+    .flv figure { max-height: none; }
+  }
+
+  /* ---- 3 · история: девочка и лиса идут по дороге -------------------------- */
+  .story__back img { position: absolute; max-width: none; width: 112%; height: 112%; left: -6%; top: -6%; object-fit: cover; object-position: 30% 50%; }
+  .story__card { position: absolute; z-index: 3; right: var(--v-gutter); bottom: clamp(2rem, 8vh, 5rem); width: min(30rem, 88vw); padding: clamp(1.4rem, 3vw, 2.2rem); border-radius: var(--v-radius);
+    background: rgb(255 250 242 / .97); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); box-shadow: var(--v-e2), var(--v-edge); }
+  .story__card h2 { font-size: var(--v-t-2xl); }
+  .story__card p { margin-top: var(--v-3); }
+  @media (max-width: 860px) {
+    .story__back { inset: 4.2rem 0 40% 0; overflow: hidden; }
+    .story__back img { width: 100%; height: 100%; left: 0; top: 0; object-position: 26% 50%; }
+    .story__card { right: var(--v-gutter); left: var(--v-gutter); width: auto; bottom: 3vh; padding: 1.1rem 1.25rem; }
+  }
+
+  /* ---- 4 · качество ---------------------------------------------------------- */
+  .qual__grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: clamp(1.5rem, 5vw, 5rem); align-items: center; }
+  .qual__img { border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2); }
+  .qual__img img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 12% 50%; }
+  .qual h2 { font-size: var(--v-t-2xl); }
+  .qual dl { margin: var(--v-6) 0 0; }
+  .qual dt { font-family: var(--v-font-display); font-size: var(--v-t-lg); }
+  .qual dd { margin: var(--v-1) 0 var(--v-5); color: var(--v-ink-soft); max-width: 40ch; }
+  @media (max-width: 860px) { .qual__grid { grid-template-columns: 1fr; } }
+
+  /* ---- 5 · где купить -------------------------------------------------------- */
+  .buy h2 { font-size: var(--v-t-3xl); line-height: 1; max-width: 12ch; }
+  .buy__list { margin-top: var(--v-7); border-top: 2px solid #2b1840; }
+  .buy__list a { display: flex; align-items: center; justify-content: space-between; gap: var(--v-4); padding: clamp(1.1rem, 2.4vw, 1.9rem) var(--v-1); text-decoration: none; border-bottom: 2px solid #2b1840;
+    font-family: var(--v-font-display); font-size: var(--v-t-3xl); line-height: 1; min-height: 64px;
+    transition: padding .22s var(--v-ease-out), color .16s; }
+  .buy__list a span { font-family: var(--v-font-text); font-size: var(--v-t-sm); font-weight: 600; padding: .6em 1.2em; border-radius: 999px; background: var(--v-accent); color: var(--v-accent-ink); white-space: nowrap; }
+  @media (hover: hover) and (pointer: fine) { .buy__list a:hover { padding-left: clamp(1rem, 3vw, 2.5rem); color: var(--v-accent); } }
+  .buy .buy__more { margin-top: var(--v-6); color: var(--v-ink-soft); max-width: 52ch; }
+  .buy__more b { color: var(--v-ink); font-weight: 600; }
+
+  /* ---- 6 · сотрудничество ---------------------------------------------------- */
+  .coop__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 5vw, 5rem); align-items: center; }
+  .coop h2 { font-size: var(--v-t-3xl); line-height: 1; }
+  .coop__card { padding: clamp(1.4rem, 3vw, 2.4rem); border-radius: var(--v-radius); background: var(--v-surface); box-shadow: var(--v-e1), var(--v-edge); }
+  .coop__card li { padding: var(--v-3) 0; border-bottom: 1px solid var(--v-hair); font-weight: 500; }
+  .coop__card li:last-child { border-bottom: 0; }
+  .coop__card .v-btn { margin-top: var(--v-5); }
+  @media (max-width: 860px) { .coop__grid { grid-template-columns: 1fr; } }
+
+  /* ---- 7 · контакты: ночь у замка ------------------------------------------- */
+  .fin { position: relative; min-height: 100svh; display: flex; flex-direction: column; justify-content: space-between; color: #fff4e3; overflow: hidden; background: #1f1233; }
+  .fin__back { position: absolute; inset: 0; }
+  .fin__back img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 60%; }
+  @media (max-width: 860px) { .fin__back { inset: auto 0 0 0; height: 64%; -webkit-mask-image: linear-gradient(to bottom, transparent, #000 30%); mask-image: linear-gradient(to bottom, transparent, #000 30%); } .fin__back img { object-position: 80% 50%; } .fin__shade { background: linear-gradient(to bottom, rgb(31 18 51 / 0) 55%, rgb(31 18 51 / .75)); } }
+  .fin__shade { position: absolute; inset: 0; background: linear-gradient(to bottom, rgb(31 18 51 / .55), rgb(31 18 51 / 0) 45%, rgb(31 18 51 / .7)); }
+  .fin__body { position: relative; z-index: 2; padding-top: clamp(5.5rem, 14vh, 9rem); }
+  .fin h2 { font-size: var(--v-t-3xl); line-height: 1; max-width: 11ch; color: #fff4e3; }
+  .fin__links { margin-top: var(--v-6); display: flex; flex-wrap: wrap; gap: var(--v-3); }
+  .fin__links a { display: inline-flex; align-items: center; min-height: 48px; padding: 0 1.4em; border-radius: 999px; text-decoration: none; font-weight: 600; background: rgb(255 244 227 / .14); box-shadow: inset 0 0 0 1px rgb(255 244 227 / .55); color: #fff4e3; transition: background-color .16s, transform .16s var(--v-ease-out); }
+  .fin__links a:active { transform: scale(.97); }
+  @media (hover: hover) and (pointer: fine) { .fin__links a:hover { background: rgb(255 244 227 / .28); } }
+  .fin__foot { position: relative; z-index: 2; padding-block: var(--v-5); font-size: var(--v-t-xs); color: rgb(255 244 227 / .85); display: flex; flex-wrap: wrap; gap: var(--v-2) var(--v-6); }
+  .fin :focus-visible { outline-color: #ffd06b; }
+
+  /* ---- лиса-спутница: бежит по низу страницы вслед за прокруткой ------------- */
+  .walker { position: fixed; left: 0; bottom: 6px; z-index: 25; width: 54px; height: auto; pointer-events: none; opacity: 0; transition: opacity .4s var(--v-ease-out); will-change: transform; }
+  .walker.on { opacity: .95; }
+  @media (max-width: 700px) { .v-page .walker { display: none; } }
+  @media (prefers-reduced-motion: reduce) { .v-page .walker { display: none; } }
+</style>
+</head>
+<body>
+<div class="v-page">
+  <header class="bar">
+    <a class="bar__mark" href="#top" aria-label="НИ В сказке сказать, НИ ПЕРОМ описать – в начало">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#d9461a"/><path d="M7 24l3-12 6 6 6-6 3 12z" fill="#fff4e3"/></svg>
+      <span>НИ В сказке сказать</span>
+    </a>
+    <nav class="bar__right" aria-label="Быстрые ссылки">
+      <span class="demo" title="Демонстрационная версия">демо</span>
+      <a class="v-btn" href="#gde-kupit">Где купить</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- 1 · ГЛАВНЫЙ ЭКРАН: облака расходятся, замок, дорога, лиса и плитка -->
+    <section id="top" data-v-act="pin" data-v-span="2" data-v-drift="#cdeef0" aria-label="Главный экран">
+      <div data-v-stage>
+        <div class="v-layer hero__back" data-v-parallax="-0.5">
+          <picture>
+            <source media="(max-width: 860px)" srcset="assets/hero-m.webp">
+            <img src="assets/hero.webp" alt="" width="1920" height="1080" fetchpriority="high">
+          </picture>
+        </div>
+        <div class="v-layer" data-v-parallax="-0.2"><img class="hero__fox rise" src="assets/fox.webp" alt="Лиса в бирюзовом шарфе" width="600" height="760" decoding="async"></div>
+        <div class="v-layer" data-v-parallax="-0.1"><img class="hero__bar rise" src="assets/bar.webp" alt="Шоколадная плитка в сказочной упаковке" width="900" height="900" decoding="async"></div>
+
+        <div class="v-copy hero__copy" data-v-cue="0 0.8 0">
+          <h1 class="v-display v-display--xl rise">НИ В сказке сказать, НИ ПЕРОМ описать</h1>
+          <p class="v-lede rise">Шоколад из современной сказки. Четыре вкуса и упаковка, которую жалко выбрасывать.</p>
+          <a class="v-btn rise" href="#gde-kupit">Где купить</a>
+        </div>
+
+        <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="cg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1000"><stop offset="0" stop-color="#ffffff"/><stop offset=".7" stop-color="#fff3f4"/><stop offset="1" stop-color="#ffd9e2"/></linearGradient>
+            <g id="cloudbank">
+              <circle cx="120" cy="80" r="200"/><circle cx="120" cy="300" r="210"/><circle cx="120" cy="520" r="210"/><circle cx="120" cy="740" r="210"/><circle cx="120" cy="940" r="200"/>
+              <circle cx="360" cy="0" r="190"/><circle cx="340" cy="200" r="210"/><circle cx="380" cy="420" r="220"/><circle cx="350" cy="640" r="220"/><circle cx="370" cy="860" r="210"/>
+              <circle cx="600" cy="120" r="190"/><circle cx="590" cy="330" r="200"/><circle cx="620" cy="550" r="210"/><circle cx="600" cy="770" r="200"/><circle cx="610" cy="960" r="190"/>
+              <circle cx="820" cy="60" r="150"/><circle cx="840" cy="250" r="170"/><circle cx="800" cy="470" r="180"/><circle cx="850" cy="690" r="170"/><circle cx="820" cy="880" r="160"/>
+              <circle cx="920" cy="380" r="120"/><circle cx="930" cy="600" r="110"/><circle cx="900" cy="140" r="110"/>
+            </g>
+          </defs>
+        </svg>
+        <div class="clouds" aria-hidden="true">
+          <svg class="cl cl--l" viewBox="0 0 1000 1000" preserveAspectRatio="none"><use href="#cloudbank" fill="#bfc9ee" transform="translate(-16 30)"/><use href="#cloudbank" fill="url(#cg)"/></svg>
+          <svg class="cl cl--r" viewBox="0 0 1000 1000" preserveAspectRatio="none"><use href="#cloudbank" fill="#bfc9ee" transform="translate(-16 30)"/><use href="#cloudbank" fill="url(#cg)"/></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · КОЛЛЕКЦИЯ: боковая лента, четыре вкуса (названия и описания – черновик, заменим на ваши) -->
+    <section class="coll" id="kollekciya" data-v-act="pan" data-v-span="3.4" data-v-drift="#ffe6cf" aria-label="Коллекция">
+      <div data-v-stage>
+        <div class="rail" data-v-pan="0.05">
+          <div class="coll__head">
+            <h2 class="v-display">Четыре вкуса</h2>
+            <p>Каждый живёт в своей главе сказки. Листайте.</p>
+          </div>
+          <article class="flv" style="--c:#ffe0bd">
+            <figure data-v-tilt="5"><img src="assets/f1.webp" alt="Плитка молочного шоколада с фундуком в шафранно-оранжевой упаковке" width="900" height="1200" loading="lazy"></figure>
+            <h3>Фундучный лес</h3>
+            <p>Молочный шоколад с жареным фундуком. Хрустит, как сухие листья под ногами.</p>
+          </article>
+          <article class="flv" style="--c:#d9cdee">
+            <figure data-v-tilt="5"><img src="assets/f2.webp" alt="Плитка тёмного шоколада в сине-сливовой упаковке со звёздами" width="900" height="1200" loading="lazy"></figure>
+            <h3>Полночь в замке</h3>
+            <p>Тёмный шоколад, глубокий и горький. Для тех, кто засиделся допоздна.</p>
+          </article>
+          <article class="flv" style="--c:#cdeedd">
+            <figure data-v-tilt="5"><img src="assets/f3.webp" alt="Плитка шоколада с карамелью и морской солью в бирюзовой упаковке" width="900" height="1200" loading="lazy"></figure>
+            <h3>Морская карамель</h3>
+            <p>Карамель и щепотка морской соли. Сладко, а потом чуть солёно.</p>
+          </article>
+          <article class="flv" style="--c:#fbd3df">
+            <figure data-v-tilt="5"><img src="assets/f4.webp" alt="Плитка белого шоколада с малиной в розовой упаковке" width="900" height="1200" loading="lazy"></figure>
+            <h3>Малиновая заря</h3>
+            <p>Белый шоколад с кусочками малины. Нежный и с кислинкой.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · ИСТОРИЯ БРЕНДА (текст – черновик) -->
+    <section id="istoriya" data-v-act="pin" data-v-span="2.2" data-v-drift="#fff0d6" aria-label="История бренда">
+      <div data-v-stage>
+        <div class="v-layer story__back" data-v-parallax="-0.5"><img src="assets/story.webp" alt="Девочка с косичками и лиса идут по шоколадной дороге к замку" width="1600" height="900" loading="lazy"></div>
+        <div class="story__card" data-v-cue="0 0.55 0 0.12">
+          <h2 class="v-display">Жила-была дорога</h2>
+          <p>Говорят, в одном королевстве дорога к замку была из шоколада. Девочка и лиса шли по ней каждый вечер, просто чтобы узнать, что за следующим поворотом.</p>
+        </div>
+        <div class="story__card" data-v-cue="0.5 1 0.12 0.06">
+          <h2 class="v-display">Так появились плитки</h2>
+          <p>Каждая из них маленькая глава. Развернули обёртку, и сказка продолжается. Здесь будет история вашего бренда: кто придумал, зачем и почему именно шоколад.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · КАЧЕСТВО (факты о составе подтверждает заказчик) -->
+    <section class="v-section v-section--tight qual" id="kachestvo" data-v-act="flow" data-v-drift="#e6ddf6" aria-label="Качество">
+      <div class="v-wrap qual__grid">
+        <figure class="qual__img" data-v-in data-v-in-self><img src="assets/quality.webp" alt="Какао-бобы, фундук, малина и ваниль" width="1600" height="900" loading="lazy"></figure>
+        <div data-v-in data-v-stagger="80">
+          <h2 class="v-display">Из чего сказка</h2>
+          <dl>
+            <dt>Какао-бобы</dt>
+            <dd>С них начинается вкус. Сорт и происхождение – в описании каждой плитки.</dd>
+            <dt>Орехи, ягоды, ваниль</dt>
+            <dd>Всё, что названо на упаковке. Полный состав – на упаковке и в карточке товара.</dd>
+            <dt>Без лишнего</dt>
+            <dd>Короткий состав, который можно прочитать целиком.</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · ГДЕ КУПИТЬ -->
+    <section class="v-section buy" id="gde-kupit" data-v-act="flow" data-v-drift="#ffe0d2" aria-label="Где купить">
+      <div class="v-wrap">
+        <div data-v-in data-v-stagger="80">
+          <h2 class="v-display">Где купить</h2>
+          <nav class="buy__list" aria-label="Маркетплейсы">
+            <a href="#gde-kupit">Wildberries <span>Перейти</span></a>
+            <a href="#gde-kupit">Ozon <span>Перейти</span></a>
+            <a href="#gde-kupit">Яндекс Маркет <span>Перейти</span></a>
+          </nav>
+          <p class="buy__more"><b>Магазины-партнёры.</b> Список магазинов и городов появится здесь.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · СОТРУДНИЧЕСТВО -->
+    <section class="v-section coop" id="sotrudnichestvo" data-v-act="flow" data-v-drift="#fbe3ee" aria-label="Сотрудничество">
+      <div class="v-wrap coop__grid">
+        <div data-v-in data-v-stagger="80">
+          <h2 class="v-display">Сказка на ваших полках</h2>
+          <p class="v-lede" style="margin-top:var(--v-4)">Работаем с магазинами, кофейнями и компаниями, которым нужны подарки.</p>
+        </div>
+        <div class="coop__card" data-v-in data-v-in-self>
+          <ul>
+            <li>Розничным магазинам и кофейням</li>
+            <li>Подарочные наборы и сезонные тиражи</li>
+            <li>Корпоративные подарки с вашим поводом</li>
+          </ul>
+          <p class="v-soft" style="margin-top:var(--v-4)">Условия, прайс и доставку пришлём по запросу.</p>
+          <a class="v-btn" href="mailto:hello@example.com">Написать нам</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · КОНТАКТЫ -->
+    <section class="fin" id="kontakty" data-v-act="flow" data-v-drift="#1f1233" aria-label="Контакты">
+      <div class="fin__back"><img src="assets/finale.webp" alt="" width="1920" height="1080" loading="lazy"></div>
+      <div class="fin__shade" aria-hidden="true"></div>
+      <div class="v-wrap fin__body" data-v-in data-v-stagger="80">
+        <h2 class="v-display">Заходите в сказку</h2>
+        <div class="fin__links">
+          <a href="#gde-kupit">ВКонтакте</a>
+          <a href="#gde-kupit">Телеграм</a>
+          <a href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+      </div>
+      <div class="v-wrap fin__foot">
+        <span>НИ В сказке сказать, НИ ПЕРОМ описать</span>
+      </div>
+    </section>
+
+  </main>
+  <img class="walker" src="assets/fox.webp" alt="" width="54" height="68" aria-hidden="true">
+</div>
+
+<script src="vibe.js"></script>
+<script>
+  // На телефоне пины короче.
+  if (window.matchMedia('(max-width: 860px)').matches) {
+    document.getElementById('top').setAttribute('data-v-span', '1.6');
+    document.getElementById('istoriya').setAttribute('data-v-span', '2');
+  }
+  Vibe.mount(document.querySelector('.v-page'));
+
+  // Облака после раскрытия убираем из страницы.
+  (function () {
+    var c = document.querySelector('.clouds'); if (!c) return;
+    var r = c.querySelector('.cl--r');
+    r.addEventListener('animationend', function () { c.style.display = 'none'; });
+  })();
+
+  // Шапка: подложка после 40 px прокрутки; лиса-спутница бежит по низу страницы.
+  (function () {
+    var bar = document.querySelector('.bar'), fox = document.querySelector('.walker'), on = null;
+    function tick() {
+      var y = window.scrollY, vh = window.innerHeight, doc = document.documentElement.scrollHeight - vh;
+      var s = y > 40; if (s !== on) { on = s; bar.classList.toggle('is-scrolled', s); }
+      var p = doc > 0 ? Math.min(Math.max(y / doc, 0), 1) : 0;
+      var x = p * (window.innerWidth - fox.offsetWidth - 8) + 4;
+      var hop = Math.abs(Math.sin(y / 38)) * 5;
+      fox.style.transform = 'translate3d(' + x.toFixed(1) + 'px,' + (-hop).toFixed(1) + 'px,0)';
+      fox.classList.toggle('on', y > vh * 0.9 && p < 0.9);
+    }
+    window.addEventListener('scroll', tick, { passive: true }); window.addEventListener('resize', tick); tick();
+  })();
+</script>
+</body>
+</html>
